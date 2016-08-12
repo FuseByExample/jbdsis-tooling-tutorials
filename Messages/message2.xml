@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<order>
+    <customer>
+        <name>San Diego Zoo</name>
+        <city>San Diego</city>
+        <country>USA</country>
+    </customer>
+    <orderline>
+        <animal>giraffe</animal>
+        <quantity>3</quantity>
+        <maxAllowed>2</maxAllowed>
+    </orderline>
+</order>
+
+

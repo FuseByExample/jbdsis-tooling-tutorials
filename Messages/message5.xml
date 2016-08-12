@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<order>
+    <customer>
+        <name>Paris Zooilogical Gardens</name>
+        <city>Paris</city>
+        <country>France</country>
+    </customer>
+    <orderline>
+        <animal>giraffe</animal>
+        <quantity>2</quantity>
+        <maxAllowed>2</maxAllowed>
+    </orderline>
+</order>
+

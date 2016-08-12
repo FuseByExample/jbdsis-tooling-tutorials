@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<order>
+  <customer>
+    <name>Brooklyn Zoo</name>
+    <city>Brooklyn</city>
+    <country>USA</country>
+  </customer>
+  <orderline>
+    <animal>wombat</animal>
+    <quantity>15</quantity>
+    <maxAllowed>25</maxAllowed>
+  </orderline>
+</order>

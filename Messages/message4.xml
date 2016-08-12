@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<order>
+    <customer>
+        <name>Bristol Zooilogical Gardens</name>
+        <city>Bristol</city>
+        <country>Great Britain</country>
+    </customer>
+    <orderline>
+        <animal>emu</animal>
+        <quantity>5</quantity>
+        <maxAllowed>4</maxAllowed>
+    </orderline>
+</order>

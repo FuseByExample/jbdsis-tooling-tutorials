@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<order>
+    <customer>
+        <name>London Zoo</name>
+        <city>London</city>
+        <country>Great Britain</country>
+    </customer>
+    <orderline>
+        <animal>penguin</animal>
+        <quantity>12</quantity>
+        <maxAllowed>20</maxAllowed>
+    </orderline>
+</order>
+
