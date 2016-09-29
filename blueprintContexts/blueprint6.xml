@@ -35,7 +35,7 @@
                  <xpath>/order/orderline/quantity/text() &gt; /order/orderline/maxAllowed/text()</xpath>
                  <log id="_log1" message="quantity requested exceeds maximum allowed - contact customer"/>
                  <setHeader headerName="Destination" id="_setHeader1">
-                      <constant>invalidOrders</constant>
+                      <constant>InvalidOrders</constant>
                  </setHeader>
                  <to id="_Invalid" uri="file:target/messages/invalidOrders"/>
               </when>
