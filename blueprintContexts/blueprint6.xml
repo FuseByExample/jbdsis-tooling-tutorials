@@ -28,7 +28,7 @@
       to set those for runtime management purposes (logging, JMX MBeans, ...)
     -->
     <camelContext xmlns="http://camel.apache.org/schema/blueprint" id="_context1">
-       <route id="Route1" shutdownRoute="Default">
+       <route id="_route1" shutdownRoute="Default">
          <from id="_from1" uri="file:src/data?noop=true"/>
          <choice id="_choice1">
               <when id="_when1">
@@ -48,7 +48,7 @@
               </otherwise>
          </choice>
        </route>
-       <route id="Route2">
+       <route id="_route2">
          <from id="_direct:OrderFulfillment" uri="direct:OrderFulfillment"/>
          <choice id="_choice2">
               <when id="_when/usa">
